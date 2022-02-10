@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">Filmoteca</string>
+    <string name="catalogo">Catálogo Filmoteca</string>
+    <string name="odissey">Odisea al Espacio</string>
+    <string name="resumen_odissey">2001: Odisea del espacio (1968) es una película la ciencia ficción dirigida por Stanley Kubrick. Está inspirada en El centinela, cuento del escritor y también guionista de la cinta Arthur C. Clarke.</string>
+    <string name="aliens">Alien, el octavo pasajero.</string>
+    <string name="thing">The thing.</string>
 </resources>

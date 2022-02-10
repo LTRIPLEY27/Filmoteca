@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:textSize="25dp"
+        android:layout_marginLeft="180dp"
+        android:text="@string/catalogo" />
+
+    <ImageView
+            android:id="@+id/Space"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginLeft="135dp"
+            app:srcCompat="@drawable/dos" />
+
+    <TextView
+        android:id="@+id/titleMovie1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_marginLeft="135dp"
+        android:text="@string/odissey"
+        android:textSize="20dp"/>
+
+    <TextView
+        android:id="@+id/resum1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_marginLeft="10dp"
+        android:text="@string/resumen_odissey" />
+
+    <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal = "true"
+            android:layout_weight="1"
+            android:layout_marginLeft="100dp"
+            app:srcCompat="@drawable/alien" />
+
+
+    <TextView
+        android:id="@+id/alien"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:textSize="20dp"
+        android:layout_marginLeft="110dp"
+        android:text="@string/aliens" />
+
+    <ImageView
+        android:id="@+id/thing"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_marginLeft="110dp"
+        app:srcCompat="@drawable/thing" />
+
+    <TextView
+        android:id="@+id/theThing"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="200dp"
+        android:layout_weight="1"
+        android:textSize="20dp"
+        android:text="@string/thing" />
+
+</LinearLayout>
