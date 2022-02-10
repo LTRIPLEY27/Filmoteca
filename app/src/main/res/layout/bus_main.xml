@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- LINEAR LAYOUT CONTENIDO DENTRO DEL CONSTRAIN PARA TRABAJAR SONBRE SU REFERENCIA Y NO SOBRE LA DE PADRE -->
+    <LinearLayout
+        android:layout_width="396dp"
+        android:layout_height="870dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.466"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.238">
+
+        <!-- TEXTVIEW CONTENIDO DENTRO DEL LINEARLAYOUT-->
+        <TextView
+            android:id="@+id/textoInicio"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="TextView" />
+
+        <!-- edittext CONTENIDO DENTRO DEL LINEARLAYOUT-->
+        <EditText
+            android:id="@+id/number1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="number" />
+
+        <EditText
+            android:id="@+id/number2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="number" />
+        <!-- TABLELAYOUT CONTENIDA DENTRO DEL LINEARLAYOUT Y QUE CONTENDRA LOS BOTONES
+            LA UTILIDAD BÁSICA ES AGRUPARLOS Y UBICARLOS EN PARRILLAS-->
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <!-- TABLEROW CONTENIDO DENTRO DEL TABLE Y QUE AGRUPARÁ EN FILAS LOS ELEMENTOS-->
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+
+                <Button
+                    android:id="@+id/suma"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/suma" />
+
+                <Button
+                    android:id="@+id/resta"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/resta" />
+            </TableRow>
+
+            <!--tablerow aparte de la que le precede y tambien contenida en el table-->
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+
+                <Button
+                    android:id="@+id/multiplicar"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/multiplicar" />
+
+                <Button
+                    android:id="@+id/restar"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/dividir" />
+            </TableRow>
+
+        </TableLayout>
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

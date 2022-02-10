@@ -3,69 +3,69 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:orientation="vertical"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:orientation="vertical">
 
 
     <TextView
         android:id="@+id/title"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_weight="1"
-        android:textSize="25dp"
         android:layout_marginLeft="180dp"
-        android:text="@string/catalogo" />
+        android:layout_weight="1"
+        android:text="@string/catalogo"
+        android:textSize="25dp" />
 
     <ImageView
-            android:id="@+id/Space"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:layout_marginLeft="135dp"
-            app:srcCompat="@drawable/dos" />
+        android:id="@+id/Space"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="135dp"
+        android:layout_weight="1"
+        app:srcCompat="@drawable/dos" />
 
     <TextView
         android:id="@+id/titleMovie1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_weight="1"
         android:layout_marginLeft="135dp"
+        android:layout_weight="1"
         android:text="@string/odissey"
-        android:textSize="20dp"/>
+        android:textSize="20dp" />
 
     <TextView
         android:id="@+id/resum1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_weight="1"
         android:layout_marginLeft="10dp"
+        android:layout_weight="1"
         android:text="@string/resumen_odissey" />
 
-    <ImageView
-            android:id="@+id/imageView2"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_centerHorizontal = "true"
-            android:layout_weight="1"
-            android:layout_marginLeft="100dp"
-            app:srcCompat="@drawable/alien" />
 
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="100dp"
+        android:layout_weight="1"
+        app:srcCompat="@drawable/alien" />
 
     <TextView
         android:id="@+id/alien"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_weight="1"
-        android:textSize="20dp"
         android:layout_marginLeft="110dp"
-        android:text="@string/aliens" />
+        android:layout_weight="1"
+        android:text="@string/aliens"
+        android:textSize="20dp" />
 
     <ImageView
         android:id="@+id/thing"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_weight="1"
         android:layout_marginLeft="110dp"
+        android:layout_weight="1"
         app:srcCompat="@drawable/thing" />
 
     <TextView
@@ -74,7 +74,7 @@
         android:layout_height="wrap_content"
         android:layout_marginLeft="200dp"
         android:layout_weight="1"
-        android:textSize="20dp"
-        android:text="@string/thing" />
+        android:text="@string/thing"
+        android:textSize="20dp" />
 
 </LinearLayout>
